@@ -31,13 +31,39 @@ button {
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    border: 2px solid transparent;
 }
 
 button:hover {
     background-color: #0056b3;
+    transition: all 0.4s ease;
 }
 
 button:active {
     background-color: #004080;
     scale: 0.95;
+}
+
+
+#og-btn {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-family: poppins;
+    font-weight: 600;
+    background-color: #0e0e0e;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#og-btn:hover {
+    background-color: transparent;
+    color: #0e0e0e;
+    border: 2px solid #0e0e0e;
+}
+
+.btn-container {
+    display: flex;
+    gap: 20px;
 }
